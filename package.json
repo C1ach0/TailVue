@@ -1,12 +1,36 @@
 {
-  "name": "tailvue",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@c1ach0/tailvue",
+  "version": "0.0.1",
+  "description": "Use free tailwindcss components with Vue3",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "vuejs",
+    "tailwind",
+    "tailvue",
+    "vue",
+    "components"
+  ],
+  "author": "C1ach0",
+  "repository": {
+    "url": "https://github.com/C1ach0/tailvue"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "rollup": "^3.23.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0",
+    "vuepress": "^2.0.0-beta.62"
+  }
 }
