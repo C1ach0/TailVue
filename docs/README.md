@@ -2,7 +2,7 @@
 A simple module adding several features and components integrating Tailwindcss and Vue3. This module does not add thousands of components but simply something to create faster with a kind of template.
 > Version : `0.0.1`
 
-> Repository : [@c1ach0/tailvue](https://github.com/C1ach0/tailvue)
+> Repository : [@c1ach0/TailVue](https://github.com/C1ach0/TailVue)
 ---
 # _Summary
 - [Installation](#installation)
