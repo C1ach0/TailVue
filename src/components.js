@@ -1,4 +1,4 @@
-import Badge from "./components/Badge.vue"
+import Badge from "./components/others/Badge.vue"
 
 export default {
     Badge,

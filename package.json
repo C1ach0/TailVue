@@ -1,7 +1,7 @@
 {
   "name": "@c1ach0/tailvue",
   "version": "0.0.1",
-  "description": "Use free tailwindcss components with Vue3",
+  "description": "A simple module adding several features and components integrating Tailwindcss & Vue3",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
   "files": [
