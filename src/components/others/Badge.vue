@@ -27,30 +27,12 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-enum ValidColors {
-  Blue = "blue",
-  Gray = "gray",
-  Red = "red",
-  Green = "green",
-  Yellow = "yellow",
-  Indigo = "indigo",
-  Purple = "purple",
-  Pink = "pink",
-}
-
 export default defineComponent({
   props: {
     color: {
       type: String,
-      validator: (value: string) =>
-        Object.values(ValidColors).includes(value as ValidColors),
-      default: ValidColors.Red,
+      default: "red",
     },
-  },
-  computed: {
-    textColor(): string {
-      return this.color as ValidColors;
-    },
-  },
+  }
 });
 </script>

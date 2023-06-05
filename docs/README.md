@@ -17,6 +17,8 @@ A simple module adding several features and components integrating Tailwindcss a
 In the terminal :
 ```sh
 npm i @c1ach0/tailvue 
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 ```
 In the ./app/main.js file add following before the new Vue instance:
 ```ts

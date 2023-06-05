@@ -5,7 +5,7 @@ const tailvue = {
     for (const prop in components) {
       if (components.hasOwnProperty(prop)) {
         const component = components[prop]
-        Vue.component(component.name, component)
+        Vue.component(`tv-${component.name}`, component)
       }
     }
   }

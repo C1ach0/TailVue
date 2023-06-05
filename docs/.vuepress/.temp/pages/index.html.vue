@@ -20,7 +20,9 @@
 <h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2>
 <p>In the terminal :</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">npm</span> i @c1ach0/tailvue 
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>In the ./app/main.js file add following before the new Vue instance:</p>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-D</span> tailwindcss postcss autoprefixer
+npx tailwindcss init <span class="token parameter variable">-p</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>In the ./app/main.js file add following before the new Vue instance:</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">import</span> tailvue <span class="token keyword">from</span> <span class="token string">"@c1ach0/tailvue"</span><span class="token punctuation">;</span>
 Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>tailvue<span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="body" tabindex="-1"><a class="header-anchor" href="#body" aria-hidden="true">#</a> Body</h2>
